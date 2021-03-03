@@ -11,7 +11,6 @@ export const GithubCounter = ({ hover, counters, user, onSelect, onAdd }) => {
     'default': {
       counter: {
         height: '36px',
-        border: '1px solid #ddd',
         borderRadius: '4px',
         display: 'flex',
         background: '#fff',
@@ -27,7 +26,7 @@ export const GithubCounter = ({ hover, counters, user, onSelect, onAdd }) => {
         cursor: 'pointer',
 
         opacity: '0',
-        transition: 'opacity 0.1s ease-in-out',
+        transition: 'opacity 0.1s ease-in-out 0s',
       },
     },
     'hover': {
